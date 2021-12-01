@@ -21,6 +21,7 @@ set('writable_dirs', []);
 
 // Hosts
 host('neutroni.hayo.fi')
+    ->user('koodaaja')
     ->set('deploy_path', '~/public_html/{{application}}');
 
 // Tasks
